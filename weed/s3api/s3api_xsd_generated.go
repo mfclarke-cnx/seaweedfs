@@ -26,7 +26,7 @@ type BucketLoggingStatus struct {
 
 type CanonicalUser struct {
 	ID          string `xml:"ID"`
-	DisplayName string `xml:"DisplayName,omitempty"`
+	DisplayName string `xml:"DisplayName"`
 }
 
 type CopyObject struct {
